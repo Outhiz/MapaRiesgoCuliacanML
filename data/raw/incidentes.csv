@@ -1,0 +1,456 @@
+fecha,colonia,incidentes
+2025-09-01,Centro,1
+2025-09-02,Centro,5
+2025-09-03,Centro,5
+2025-09-04,Centro,5
+2025-09-05,Centro,4
+2025-09-06,Centro,2
+2025-09-07,Centro,3
+2025-09-08,Centro,2
+2025-09-09,Centro,0
+2025-09-10,Centro,5
+2025-09-11,Centro,4
+2025-09-12,Centro,3
+2025-09-13,Centro,4
+2025-09-14,Centro,3
+2025-09-15,Centro,2
+2025-09-16,Centro,0
+2025-09-17,Centro,3
+2025-09-18,Centro,3
+2025-09-19,Centro,6
+2025-09-20,Centro,4
+2025-09-21,Centro,5
+2025-09-22,Centro,3
+2025-09-23,Centro,4
+2025-09-24,Centro,3
+2025-09-25,Centro,3
+2025-09-26,Centro,2
+2025-09-27,Centro,1
+2025-09-28,Centro,4
+2025-09-29,Centro,2
+2025-09-30,Centro,3
+2025-10-01,Centro,3
+2025-10-02,Centro,4
+2025-10-03,Centro,3
+2025-10-04,Centro,4
+2025-10-05,Centro,5
+2025-10-06,Centro,4
+2025-10-07,Centro,5
+2025-10-08,Centro,4
+2025-10-09,Centro,2
+2025-10-10,Centro,1
+2025-10-11,Centro,4
+2025-10-12,Centro,3
+2025-10-13,Centro,3
+2025-10-14,Centro,4
+2025-10-15,Centro,3
+2025-10-16,Centro,5
+2025-10-17,Centro,3
+2025-10-18,Centro,5
+2025-10-19,Centro,4
+2025-10-20,Centro,3
+2025-10-21,Centro,3
+2025-10-22,Centro,3
+2025-10-23,Centro,2
+2025-10-24,Centro,6
+2025-10-25,Centro,4
+2025-10-26,Centro,2
+2025-10-27,Centro,4
+2025-10-28,Centro,4
+2025-10-29,Centro,4
+2025-10-30,Centro,3
+2025-10-31,Centro,3
+2025-11-01,Centro,4
+2025-11-02,Centro,5
+2025-11-03,Centro,4
+2025-11-04,Centro,6
+2025-11-05,Centro,5
+2025-11-06,Centro,8
+2025-11-07,Centro,4
+2025-11-08,Centro,2
+2025-11-09,Centro,2
+2025-11-10,Centro,3
+2025-11-11,Centro,5
+2025-11-12,Centro,3
+2025-11-13,Centro,5
+2025-11-14,Centro,2
+2025-11-15,Centro,1
+2025-11-16,Centro,3
+2025-11-17,Centro,5
+2025-11-18,Centro,4
+2025-11-19,Centro,3
+2025-11-20,Centro,4
+2025-11-21,Centro,6
+2025-11-22,Centro,5
+2025-11-23,Centro,4
+2025-11-24,Centro,4
+2025-11-25,Centro,3
+2025-11-26,Centro,3
+2025-11-27,Centro,3
+2025-11-28,Centro,3
+2025-11-29,Centro,2
+2025-11-30,Centro,4
+2025-09-01,Las Quintas,2
+2025-09-02,Las Quintas,1
+2025-09-03,Las Quintas,2
+2025-09-04,Las Quintas,2
+2025-09-05,Las Quintas,3
+2025-09-06,Las Quintas,3
+2025-09-07,Las Quintas,5
+2025-09-08,Las Quintas,2
+2025-09-09,Las Quintas,3
+2025-09-10,Las Quintas,2
+2025-09-11,Las Quintas,2
+2025-09-12,Las Quintas,2
+2025-09-13,Las Quintas,0
+2025-09-14,Las Quintas,4
+2025-09-15,Las Quintas,2
+2025-09-16,Las Quintas,1
+2025-09-17,Las Quintas,2
+2025-09-18,Las Quintas,3
+2025-09-19,Las Quintas,1
+2025-09-20,Las Quintas,1
+2025-09-21,Las Quintas,3
+2025-09-22,Las Quintas,2
+2025-09-23,Las Quintas,7
+2025-09-24,Las Quintas,2
+2025-09-25,Las Quintas,2
+2025-09-26,Las Quintas,3
+2025-09-27,Las Quintas,2
+2025-09-28,Las Quintas,4
+2025-09-29,Las Quintas,3
+2025-09-30,Las Quintas,1
+2025-10-01,Las Quintas,3
+2025-10-02,Las Quintas,3
+2025-10-03,Las Quintas,4
+2025-10-04,Las Quintas,1
+2025-10-05,Las Quintas,2
+2025-10-06,Las Quintas,5
+2025-10-07,Las Quintas,1
+2025-10-08,Las Quintas,3
+2025-10-09,Las Quintas,2
+2025-10-10,Las Quintas,3
+2025-10-11,Las Quintas,2
+2025-10-12,Las Quintas,3
+2025-10-13,Las Quintas,0
+2025-10-14,Las Quintas,3
+2025-10-15,Las Quintas,3
+2025-10-16,Las Quintas,1
+2025-10-17,Las Quintas,3
+2025-10-18,Las Quintas,1
+2025-10-19,Las Quintas,2
+2025-10-20,Las Quintas,0
+2025-10-21,Las Quintas,1
+2025-10-22,Las Quintas,5
+2025-10-23,Las Quintas,2
+2025-10-24,Las Quintas,3
+2025-10-25,Las Quintas,1
+2025-10-26,Las Quintas,0
+2025-10-27,Las Quintas,2
+2025-10-28,Las Quintas,2
+2025-10-29,Las Quintas,1
+2025-10-30,Las Quintas,3
+2025-10-31,Las Quintas,5
+2025-11-01,Las Quintas,2
+2025-11-02,Las Quintas,0
+2025-11-03,Las Quintas,2
+2025-11-04,Las Quintas,0
+2025-11-05,Las Quintas,2
+2025-11-06,Las Quintas,3
+2025-11-07,Las Quintas,1
+2025-11-08,Las Quintas,3
+2025-11-09,Las Quintas,3
+2025-11-10,Las Quintas,3
+2025-11-11,Las Quintas,3
+2025-11-12,Las Quintas,1
+2025-11-13,Las Quintas,1
+2025-11-14,Las Quintas,3
+2025-11-15,Las Quintas,3
+2025-11-16,Las Quintas,2
+2025-11-17,Las Quintas,2
+2025-11-18,Las Quintas,2
+2025-11-19,Las Quintas,1
+2025-11-20,Las Quintas,3
+2025-11-21,Las Quintas,3
+2025-11-22,Las Quintas,2
+2025-11-23,Las Quintas,1
+2025-11-24,Las Quintas,4
+2025-11-25,Las Quintas,4
+2025-11-26,Las Quintas,2
+2025-11-27,Las Quintas,1
+2025-11-28,Las Quintas,3
+2025-11-29,Las Quintas,4
+2025-11-30,Las Quintas,3
+2025-09-01,Tierra Blanca,1
+2025-09-02,Tierra Blanca,2
+2025-09-03,Tierra Blanca,0
+2025-09-04,Tierra Blanca,2
+2025-09-05,Tierra Blanca,0
+2025-09-06,Tierra Blanca,1
+2025-09-07,Tierra Blanca,1
+2025-09-08,Tierra Blanca,3
+2025-09-09,Tierra Blanca,1
+2025-09-10,Tierra Blanca,1
+2025-09-11,Tierra Blanca,2
+2025-09-12,Tierra Blanca,1
+2025-09-13,Tierra Blanca,1
+2025-09-14,Tierra Blanca,1
+2025-09-15,Tierra Blanca,0
+2025-09-16,Tierra Blanca,0
+2025-09-17,Tierra Blanca,0
+2025-09-18,Tierra Blanca,0
+2025-09-19,Tierra Blanca,2
+2025-09-20,Tierra Blanca,1
+2025-09-21,Tierra Blanca,1
+2025-09-22,Tierra Blanca,0
+2025-09-23,Tierra Blanca,1
+2025-09-24,Tierra Blanca,0
+2025-09-25,Tierra Blanca,2
+2025-09-26,Tierra Blanca,2
+2025-09-27,Tierra Blanca,1
+2025-09-28,Tierra Blanca,0
+2025-09-29,Tierra Blanca,0
+2025-09-30,Tierra Blanca,0
+2025-10-01,Tierra Blanca,1
+2025-10-02,Tierra Blanca,0
+2025-10-03,Tierra Blanca,0
+2025-10-04,Tierra Blanca,2
+2025-10-05,Tierra Blanca,1
+2025-10-06,Tierra Blanca,2
+2025-10-07,Tierra Blanca,1
+2025-10-08,Tierra Blanca,3
+2025-10-09,Tierra Blanca,1
+2025-10-10,Tierra Blanca,0
+2025-10-11,Tierra Blanca,2
+2025-10-12,Tierra Blanca,1
+2025-10-13,Tierra Blanca,1
+2025-10-14,Tierra Blanca,2
+2025-10-15,Tierra Blanca,0
+2025-10-16,Tierra Blanca,1
+2025-10-17,Tierra Blanca,0
+2025-10-18,Tierra Blanca,1
+2025-10-19,Tierra Blanca,0
+2025-10-20,Tierra Blanca,0
+2025-10-21,Tierra Blanca,0
+2025-10-22,Tierra Blanca,0
+2025-10-23,Tierra Blanca,0
+2025-10-24,Tierra Blanca,0
+2025-10-25,Tierra Blanca,2
+2025-10-26,Tierra Blanca,0
+2025-10-27,Tierra Blanca,1
+2025-10-28,Tierra Blanca,3
+2025-10-29,Tierra Blanca,0
+2025-10-30,Tierra Blanca,1
+2025-10-31,Tierra Blanca,1
+2025-11-01,Tierra Blanca,1
+2025-11-02,Tierra Blanca,0
+2025-11-03,Tierra Blanca,0
+2025-11-04,Tierra Blanca,0
+2025-11-05,Tierra Blanca,0
+2025-11-06,Tierra Blanca,3
+2025-11-07,Tierra Blanca,1
+2025-11-08,Tierra Blanca,0
+2025-11-09,Tierra Blanca,0
+2025-11-10,Tierra Blanca,1
+2025-11-11,Tierra Blanca,1
+2025-11-12,Tierra Blanca,0
+2025-11-13,Tierra Blanca,0
+2025-11-14,Tierra Blanca,0
+2025-11-15,Tierra Blanca,1
+2025-11-16,Tierra Blanca,0
+2025-11-17,Tierra Blanca,0
+2025-11-18,Tierra Blanca,1
+2025-11-19,Tierra Blanca,1
+2025-11-20,Tierra Blanca,0
+2025-11-21,Tierra Blanca,0
+2025-11-22,Tierra Blanca,0
+2025-11-23,Tierra Blanca,0
+2025-11-24,Tierra Blanca,0
+2025-11-25,Tierra Blanca,0
+2025-11-26,Tierra Blanca,1
+2025-11-27,Tierra Blanca,1
+2025-11-28,Tierra Blanca,2
+2025-11-29,Tierra Blanca,0
+2025-11-30,Tierra Blanca,0
+2025-09-01,Lomas del Blvd,5
+2025-09-02,Lomas del Blvd,7
+2025-09-03,Lomas del Blvd,8
+2025-09-04,Lomas del Blvd,5
+2025-09-05,Lomas del Blvd,7
+2025-09-06,Lomas del Blvd,6
+2025-09-07,Lomas del Blvd,5
+2025-09-08,Lomas del Blvd,3
+2025-09-09,Lomas del Blvd,4
+2025-09-10,Lomas del Blvd,7
+2025-09-11,Lomas del Blvd,5
+2025-09-12,Lomas del Blvd,5
+2025-09-13,Lomas del Blvd,5
+2025-09-14,Lomas del Blvd,5
+2025-09-15,Lomas del Blvd,7
+2025-09-16,Lomas del Blvd,7
+2025-09-17,Lomas del Blvd,5
+2025-09-18,Lomas del Blvd,6
+2025-09-19,Lomas del Blvd,3
+2025-09-20,Lomas del Blvd,6
+2025-09-21,Lomas del Blvd,8
+2025-09-22,Lomas del Blvd,5
+2025-09-23,Lomas del Blvd,7
+2025-09-24,Lomas del Blvd,6
+2025-09-25,Lomas del Blvd,7
+2025-09-26,Lomas del Blvd,6
+2025-09-27,Lomas del Blvd,3
+2025-09-28,Lomas del Blvd,6
+2025-09-29,Lomas del Blvd,6
+2025-09-30,Lomas del Blvd,7
+2025-10-01,Lomas del Blvd,5
+2025-10-02,Lomas del Blvd,6
+2025-10-03,Lomas del Blvd,5
+2025-10-04,Lomas del Blvd,4
+2025-10-05,Lomas del Blvd,5
+2025-10-06,Lomas del Blvd,6
+2025-10-07,Lomas del Blvd,5
+2025-10-08,Lomas del Blvd,9
+2025-10-09,Lomas del Blvd,5
+2025-10-10,Lomas del Blvd,4
+2025-10-11,Lomas del Blvd,5
+2025-10-12,Lomas del Blvd,6
+2025-10-13,Lomas del Blvd,6
+2025-10-14,Lomas del Blvd,4
+2025-10-15,Lomas del Blvd,6
+2025-10-16,Lomas del Blvd,5
+2025-10-17,Lomas del Blvd,2
+2025-10-18,Lomas del Blvd,5
+2025-10-19,Lomas del Blvd,6
+2025-10-20,Lomas del Blvd,6
+2025-10-21,Lomas del Blvd,8
+2025-10-22,Lomas del Blvd,5
+2025-10-23,Lomas del Blvd,4
+2025-10-24,Lomas del Blvd,6
+2025-10-25,Lomas del Blvd,5
+2025-10-26,Lomas del Blvd,5
+2025-10-27,Lomas del Blvd,4
+2025-10-28,Lomas del Blvd,8
+2025-10-29,Lomas del Blvd,4
+2025-10-30,Lomas del Blvd,5
+2025-10-31,Lomas del Blvd,4
+2025-11-01,Lomas del Blvd,7
+2025-11-02,Lomas del Blvd,4
+2025-11-03,Lomas del Blvd,7
+2025-11-04,Lomas del Blvd,7
+2025-11-05,Lomas del Blvd,4
+2025-11-06,Lomas del Blvd,6
+2025-11-07,Lomas del Blvd,7
+2025-11-08,Lomas del Blvd,3
+2025-11-09,Lomas del Blvd,4
+2025-11-10,Lomas del Blvd,6
+2025-11-11,Lomas del Blvd,5
+2025-11-12,Lomas del Blvd,5
+2025-11-13,Lomas del Blvd,3
+2025-11-14,Lomas del Blvd,5
+2025-11-15,Lomas del Blvd,4
+2025-11-16,Lomas del Blvd,6
+2025-11-17,Lomas del Blvd,5
+2025-11-18,Lomas del Blvd,5
+2025-11-19,Lomas del Blvd,6
+2025-11-20,Lomas del Blvd,5
+2025-11-21,Lomas del Blvd,6
+2025-11-22,Lomas del Blvd,6
+2025-11-23,Lomas del Blvd,8
+2025-11-24,Lomas del Blvd,8
+2025-11-25,Lomas del Blvd,6
+2025-11-26,Lomas del Blvd,7
+2025-11-27,Lomas del Blvd,6
+2025-11-28,Lomas del Blvd,4
+2025-11-29,Lomas del Blvd,6
+2025-11-30,Lomas del Blvd,4
+2025-09-01,Humaya,5
+2025-09-02,Humaya,5
+2025-09-03,Humaya,4
+2025-09-04,Humaya,4
+2025-09-05,Humaya,4
+2025-09-06,Humaya,4
+2025-09-07,Humaya,2
+2025-09-08,Humaya,3
+2025-09-09,Humaya,2
+2025-09-10,Humaya,2
+2025-09-11,Humaya,5
+2025-09-12,Humaya,6
+2025-09-13,Humaya,1
+2025-09-14,Humaya,4
+2025-09-15,Humaya,3
+2025-09-16,Humaya,3
+2025-09-17,Humaya,2
+2025-09-18,Humaya,6
+2025-09-19,Humaya,2
+2025-09-20,Humaya,0
+2025-09-21,Humaya,4
+2025-09-22,Humaya,3
+2025-09-23,Humaya,2
+2025-09-24,Humaya,5
+2025-09-25,Humaya,2
+2025-09-26,Humaya,3
+2025-09-27,Humaya,5
+2025-09-28,Humaya,3
+2025-09-29,Humaya,2
+2025-09-30,Humaya,4
+2025-10-01,Humaya,5
+2025-10-02,Humaya,5
+2025-10-03,Humaya,4
+2025-10-04,Humaya,4
+2025-10-05,Humaya,4
+2025-10-06,Humaya,5
+2025-10-07,Humaya,3
+2025-10-08,Humaya,3
+2025-10-09,Humaya,2
+2025-10-10,Humaya,3
+2025-10-11,Humaya,2
+2025-10-12,Humaya,4
+2025-10-13,Humaya,5
+2025-10-14,Humaya,3
+2025-10-15,Humaya,3
+2025-10-16,Humaya,5
+2025-10-17,Humaya,6
+2025-10-18,Humaya,3
+2025-10-19,Humaya,3
+2025-10-20,Humaya,3
+2025-10-21,Humaya,3
+2025-10-22,Humaya,4
+2025-10-23,Humaya,5
+2025-10-24,Humaya,5
+2025-10-25,Humaya,3
+2025-10-26,Humaya,5
+2025-10-27,Humaya,1
+2025-10-28,Humaya,2
+2025-10-29,Humaya,5
+2025-10-30,Humaya,5
+2025-10-31,Humaya,4
+2025-11-01,Humaya,1
+2025-11-02,Humaya,4
+2025-11-03,Humaya,7
+2025-11-04,Humaya,3
+2025-11-05,Humaya,4
+2025-11-06,Humaya,4
+2025-11-07,Humaya,5
+2025-11-08,Humaya,5
+2025-11-09,Humaya,4
+2025-11-10,Humaya,5
+2025-11-11,Humaya,1
+2025-11-12,Humaya,1
+2025-11-13,Humaya,4
+2025-11-14,Humaya,5
+2025-11-15,Humaya,5
+2025-11-16,Humaya,4
+2025-11-17,Humaya,5
+2025-11-18,Humaya,7
+2025-11-19,Humaya,3
+2025-11-20,Humaya,3
+2025-11-21,Humaya,2
+2025-11-22,Humaya,6
+2025-11-23,Humaya,2
+2025-11-24,Humaya,5
+2025-11-25,Humaya,2
+2025-11-26,Humaya,2
+2025-11-27,Humaya,5
+2025-11-28,Humaya,5
+2025-11-29,Humaya,4
+2025-11-30,Humaya,2
