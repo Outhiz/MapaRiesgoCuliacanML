@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import f1_score, average_precision_score
 from joblib import dump
 from xgboost import XGBClassifier
-from src.plots import plot_feature_importance   # <-- IMPORTANTE
+from src.plots import plot_feature_importance
 
 
 # ---- Función de evaluación ----
@@ -36,7 +36,7 @@ def train_gbm(X_train, y_train):
 # ---- Entrenamiento general ----
 def train_and_compare(data_path):
     df = pd.read_csv(data_path)
-    X = df[['temp_max', 'lluvia_mm', 'incidentes_lag3', 'incidentes_lag7']]
+    X = df[['temp_max', 'lluvia_mm', 'lag3', 'lag7']]
     y = df['riesgo']
 
     X_train, X_test, y_train, y_test = train_test_split(

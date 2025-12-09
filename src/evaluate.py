@@ -22,7 +22,7 @@ def temporal_validation(df, model_type='logreg', splits=3):
     tscv = TimeSeriesSplit(n_splits=splits)
     results = []
 
-    X = df[['temp_max', 'lluvia_mm', 'incidentes_lag3']]
+    X = df[['temp_max', 'lluvia_mm', 'lag3']]
     y = df['riesgo']
 
     for i, (train_idx, test_idx) in enumerate(tscv.split(X)):
@@ -58,9 +58,9 @@ def spatial_validation(df, model_type='logreg'):
         train = df[df['colonia'] != colonia_out]
         test = df[df['colonia'] == colonia_out]
 
-        X_train = train[['temp_max', 'lluvia_mm', 'incidentes_lag3']]
+        X_train = train[['temp_max', 'lluvia_mm', 'lag3']]
         y_train = train['riesgo']
-        X_test = test[['temp_max', 'lluvia_mm', 'incidentes_lag3']]
+        X_test = test[['temp_max', 'lluvia_mm', 'lag3']]
         y_test = test['riesgo']
 
         if model_type == 'logreg':

@@ -1,34 +1,73 @@
-import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import pandas as pd
 import numpy as np
 import os
 
-def plot_temporal_results(results_df, output_path="reports/temporal_metrics.png"):
-    os.makedirs("reports", exist_ok=True)
-    plt.figure(figsize=(8, 5))
-    sns.lineplot(data=results_df, x="Fold", y="F1", label="F1", marker="o")
-    sns.lineplot(data=results_df, x="Fold", y="AUC-PR", label="AUC-PR", marker="s")
-    plt.title("Validación temporal - Métricas por fold")
-    plt.xlabel("Fold (división temporal)")
-    plt.ylabel("Valor de métrica")
+
+# ============================================================
+# FEATURE IMPORTANCE
+# ============================================================
+def plot_feature_importance(model, feature_names, save_path="reports/feature_importance.png"):
+    """Genera un gráfico de importancia de características para RF o XGBoost."""
+    importances = model.feature_importances_
+    indices = np.argsort(importances)[::-1]
+
+    plt.figure(figsize=(8, 6))
+    plt.title("Importancia de características", fontsize=16)
+    plt.bar(range(len(importances)), importances[indices])
+    plt.xticks(range(len(importances)), np.array(feature_names)[indices], rotation=45, ha='right')
+    
+    plt.tight_layout()
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
+    plt.savefig(save_path)
+    plt.close()
+
+    print(f"[OK] Feature importance guardado en: {save_path}")
+
+
+# ============================================================
+# VALIDACIÓN TEMPORAL - Gráfico
+# ============================================================
+def plot_temporal_results(df, save_path="reports/temporal_metrics.png"):
+    plt.figure(figsize=(10, 6))
+    sns.lineplot(x="Fold", y="F1", data=df, marker="o", label="F1")
+    sns.lineplot(x="Fold", y="AUC-PR", data=df, marker="o", label="AUC-PR")
+    sns.lineplot(x="Fold", y="Recall@10%", data=df, marker="o", label="Recall@10%")
+
+    plt.title("Validación temporal (Rolling Origin)")
+    plt.xlabel("Fold")
+    plt.ylabel("Métrica")
     plt.legend()
-    plt.grid(True, linestyle="--", alpha=0.6)
-    plt.tight_layout()
-    plt.savefig(output_path)
+
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
+    plt.savefig(save_path)
     plt.close()
-    print(f"Gráfico guardado en {output_path}")
+
+    print(f"[OK] Temporal metrics guardado en: {save_path}")
 
 
-def plot_spatial_heatmap(results_df, output_path="reports/spatial_heatmap.png"):
-    os.makedirs("reports", exist_ok=True)
-    plt.figure(figsize=(7, 4))
-    df_long = results_df.melt(id_vars="Zona_excluida", value_vars=["F1", "AUC-PR", "Recall@10%"])
-    pivot = df_long.pivot(index="Zona_excluida", columns="variable", values="value")
+# ============================================================
+# HEATMAP ESPACIAL
+# ============================================================
+def plot_spatial_heatmap(df, save_path="reports/spatial_heatmap.png"):
+    df_long = df.melt(id_vars="Zona_excluida")
 
-    sns.heatmap(pivot, annot=True, cmap="Blues", fmt=".2f", cbar_kws={"label": "Valor"})
-    plt.title("Validación espacial - Métricas por colonia excluida")
+    pivot = df_long.pivot_table(
+        index="Zona_excluida",
+        columns="variable",
+        values="value",
+        aggfunc="mean"
+    )
+
+    plt.figure(figsize=(10, 6))
+    sns.heatmap(pivot, annot=True, cmap="YlOrRd", fmt=".3f")
+
+    plt.title("Validación espacial: métricas por colonia excluida")
     plt.tight_layout()
-    plt.savefig(output_path)
+
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
+    plt.savefig(save_path)
     plt.close()
-    print(f"Gráfico guardado en {output_path}")
+
+    print(f"[OK] Spatial heatmap guardado en: {save_path}")

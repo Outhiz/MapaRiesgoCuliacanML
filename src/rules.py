@@ -1,7 +1,7 @@
 def apply_rules(row):
     rules = []
 
-    if row['incidentes_lag3'] >= 4:
+    if row['lag3'] >= 4:
         rules.append("Histórico reciente indica riesgo alto.")
 
     if row['temp_max'] > 33 and row['lluvia_mm'] < 5:

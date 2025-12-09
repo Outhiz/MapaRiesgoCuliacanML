@@ -27,7 +27,7 @@ def main():
     top_cases = retrieve_similar_cases(cases, example)
 
     rf = load("models/randomforest.pkl")
-    y_proba = rf.predict_proba(df[['temp_max','lluvia_mm','incidentes_lag3','incidentes_lag7']])[:,1]
+    y_proba = rf.predict_proba(df[['temp_max','lluvia_mm','lag3','lag7']])[:,1]
     best_threshold = evolve(df['riesgo'], y_proba)
 
     print("\n--- Integración Final ---")
