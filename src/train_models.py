@@ -5,14 +5,19 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import f1_score, average_precision_score
 from joblib import dump
 from xgboost import XGBClassifier
+from src.plots import plot_feature_importance   # <-- IMPORTANTE
 
+
+# ---- Función de evaluación ----
 def evaluate(model, X_test, y_test):
     preds = model.predict(X_test)
     probas = model.predict_proba(X_test)[:, 1]
     f1 = f1_score(y_test, preds)
     auc_pr = average_precision_score(y_test, probas)
     return {'F1': round(f1, 3), 'AUC-PR': round(auc_pr, 3)}
-# Modelo de Gradient Boosting con XGBoost
+
+
+# ---- Modelo GBM (XGBoost) ----
 def train_gbm(X_train, y_train):
     model = XGBClassifier(
         n_estimators=300,
@@ -21,11 +26,14 @@ def train_gbm(X_train, y_train):
         subsample=0.8,
         colsample_bytree=0.8,
         eval_metric='aucpr',
-        random_state=42
+        random_state=42,
+        tree_method="hist"
     )
     model.fit(X_train, y_train)
     return model
 
+
+# ---- Entrenamiento general ----
 def train_and_compare(data_path):
     df = pd.read_csv(data_path)
     X = df[['temp_max', 'lluvia_mm', 'incidentes_lag3', 'incidentes_lag7']]
@@ -35,25 +43,48 @@ def train_and_compare(data_path):
         X, y, test_size=0.3, shuffle=False
     )
 
-    # Modelo base
+    # ------------------------
+    # MODELO BASE: LOGISTIC
+    # ------------------------
     logreg = LogisticRegression(class_weight='balanced', max_iter=500)
     logreg.fit(X_train, y_train)
     log_metrics = evaluate(logreg, X_test, y_test)
 
-    # Modelo avanzado
-    rf = RandomForestClassifier(n_estimators=100, class_weight='balanced', random_state=42)
+    # ------------------------
+    # MODELO AVANZADO: RANDOM FOREST
+    # ------------------------
+    rf = RandomForestClassifier(
+        n_estimators=200,
+        class_weight='balanced',
+        random_state=42,
+        max_depth=12
+    )
     rf.fit(X_train, y_train)
     rf_metrics = evaluate(rf, X_test, y_test)
-    # Modelo GBM
+
+    # ------------------------
+    # MODELO GBM (XGBOOST)
+    # ------------------------
     gbm = train_gbm(X_train, y_train)
     gbm_metrics = evaluate(gbm, X_test, y_test)
 
+    # ------------------------
+    # FEATURE IMPORTANCE
+    # ------------------------
+    plot_feature_importance(
+        rf,
+        feature_names=X_train.columns,
+        save_path="reports/feature_importance.png"
+    )
+
+    # ------------------------
     # Guardar modelos
+    # ------------------------
     dump(logreg, 'models/logreg.pkl')
     dump(rf, 'models/randomforest.pkl')
     dump(gbm, 'models/gbm_xgboost.pkl')
 
-    print("Resultados:")
+    print("\n=== Resultados ===")
     print("Regresión Logística:", log_metrics)
     print("Random Forest:", rf_metrics)
-    print("GBM:", gbm_metrics)
+    print("XGBoost GBM:", gbm_metrics)

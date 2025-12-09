@@ -1,0 +1,21 @@
+colonia,dia,hora,temp_max,lluvia_mm,lag3,riesgo
+Centro,Lunes,21,34,0,4,1
+Las Quintas,Viernes,23,33,0,3,1
+Tierra Blanca,Sábado,19,32,5,2,0
+Lomas del Blvd,Jueves,20,35,1,5,1
+Humaya,Domingo,18,31,10,1,0
+Centro,Miércoles,22,36,0,4,1
+Las Quintas,Martes,17,34,2,3,1
+Tierra Blanca,Lunes,16,30,12,1,0
+Lomas del Blvd,Viernes,21,37,3,6,1
+Humaya,Sábado,20,33,0,2,0
+Centro,Domingo,23,35,0,5,1
+Las Quintas,Jueves,19,34,1,4,1
+Tierra Blanca,Miércoles,18,29,15,1,0
+Lomas del Blvd,Lunes,20,36,0,7,1
+Humaya,Viernes,22,32,8,2,0
+Centro,Sábado,21,33,0,3,1
+Las Quintas,Domingo,23,34,0,4,1
+Tierra Blanca,Jueves,17,31,20,2,0
+Lomas del Blvd,Martes,19,36,0,6,1
+Humaya,Lunes,18,30,9,1,0

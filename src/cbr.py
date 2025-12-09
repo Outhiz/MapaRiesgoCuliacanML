@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-def load_cases(path="data/raw/casos.csv"):
+def load_cases(path="data/processed/casos.csv"):
     df = pd.read_csv(path)
     return df
 
